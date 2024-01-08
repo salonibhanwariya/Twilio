@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "bf7d6577-f7fb-4694-beb7-40d3b9d79028",
+		"name": "New Collection",
+		"description": "Open API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "15655946-bf7d6577-f7fb-4694-beb7-40d3b9d79028"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "a83353e0-dee4-4fe5-b96b-3756f279e444",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "London-2016",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "SoniaR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"to\":\"string\",\r\n    \"from\":\"string\",\r\n    \"messageId\":\"string\",\r\n    \"body\":\"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://appcinodev.appiancloud.com/suite/webapi/TwilioConversation",
+					"protocol": "https",
+					"host": [
+						"appcinodev",
+						"appiancloud",
+						"com"
+					],
+					"path": [
+						"suite",
+						"webapi",
+						"TwilioConversation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
